@@ -32,8 +32,10 @@ def test_circle():
     """
     r = 23
     area = math.pi*r**2
+    print("area =", area)
     assert area == 1661.9025137490005
     length = 2*math.pi*r
+    print("length =", length)
     assert length == 144.51326206513048
 
 
